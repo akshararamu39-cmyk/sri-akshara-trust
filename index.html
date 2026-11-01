@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Akshara Group of Schools | Sri Akshara Trust | Hyderabad, Telangana</title>
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#0f2942',
+                            900: '#0a1d30',
+                            950: '#061320',
+                        },
+                        gold: {
+                            500: '#d97706',
+                            600: '#b45309',
+                        },
+                        amberAccent: '#f59e0b',
+                    },
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        serif: ['"Playfair Display"', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+        .hero-pattern {
+            background-color: #081a2c;
+            background-image: radial-gradient(#1e3a5f 1px, transparent 1px), radial-gradient(#1e3a5f 1px, #081a2c 1px);
+            background-size: 40px 40px;
+            background-position: 0 0, 20px 20px;
+        }
+        .tab-active {
+            background-color: #0f2942;
+            color: #ffffff;
+            border-color: #0f2942;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
+
+    <!-- Top Announcement & Contact Bar -->
+    <div class="bg-navy-950 text-slate-300 text-xs sm:text-sm py-2 px-4 border-b border-navy-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-2">
+                <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-amber-500/20 text-amber-300 font-semibold text-xs">
+                    <span class="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span> Admissions 2026–27 Open
+                </span>
+                <span class="hidden md:inline text-slate-400">| Under the aegis of <strong>Sri Akshara Trust</strong></span>
+            </div>
+            <div class="flex items-center gap-6">
+                <a href="tel:9100222047" class="inline-flex items-center gap-1.5 hover:text-amber-400 transition-colors">
+                    <i data-lucide="phone-call" class="w-3.5 h-3.5 text-amber-400"></i>
+                    <span>+91 91002 22047</span>
+                </a>
+                <a href="mailto:sriaksharatrusthyd@gmail.com" class="inline-flex items-center gap-1.5 hover:text-amber-400 transition-colors">
+                    <i data-lucide="mail" class="w-3.5 h-3.5 text-amber-400"></i>
+                    <span>sriaksharatrusthyd@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-100 transition-all">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Brand Logo / Identity -->
+                <a href="#home" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-navy-800 to-navy-950 flex items-center justify-center text-amber-400 shadow-md group-hover:scale-105 transition-transform">
+                        <i data-lucide="graduation-cap" class="w-7 h-7"></i>
+                    </div>
+                    <div>
+                        <div class="text-xl sm:text-2xl font-extrabold tracking-tight text-navy-900 group-hover:text-amber-600 transition-colors">
+                            SRI AKSHARA
+                        </div>
+                        <div class="text-[10px] tracking-widest uppercase font-bold text-slate-500">
+                            Group of Schools • Sri Akshara Trust
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Menu -->
+                <nav class="hidden lg:flex items-center gap-8 font-medium text-slate-700 text-sm">
+                    <a href="#home" class="hover:text-navy-800 hover:font-semibold transition-colors">Home</a>
+                    <a href="#about" class="hover:text-navy-800 hover:font-semibold transition-colors">About Trust</a>
+                    <a href="#branches" class="hover:text-navy-800 hover:font-semibold transition-colors">Our 4 Branches</a>
+                    <a href="#academics" class="hover:text-navy-800 hover:font-semibold transition-colors">Academics & Life</a>
+                    <a href="#facilities" class="hover:text-navy-800 hover:font-semibold transition-colors">Facilities</a>
+                    <a href="#contact" class="hover:text-navy-800 hover:font-semibold transition-colors">Trust Office</a>
+                </nav>
+
+                <!-- Header Actions -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="#admissions" class="px-5 py-2.5 rounded-lg bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-semibold text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5 inline-flex items-center gap-2">
+                        <span>Admissions 2026-27</span>
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
+                </div>
+
+                <!-- Mobile Hamburger Toggle -->
+                <div class="lg:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="p-2 rounded-lg text-slate-700 hover:bg-slate-100 transition-colors" aria-label="Toggle menu">
+                        <i data-lucide="menu" class="w-6 h-6"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-100 bg-white px-4 pt-3 pb-6 space-y-3 shadow-xl">
+            <a href="#home" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-50">Home</a>
+            <a href="#about" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-50">About Trust</a>
+            <a href="#branches" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-50">Our 4 Campuses</a>
+            <a href="#academics" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-50">Academics & Life</a>
+            <a href="#facilities" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-50">Facilities</a>
+            <a href="#contact" class="mobile-link block px-3 py-2 rounded-md font-medium text-slate-700 hover:bg-slate-50">Trust Society Office</a>
+            <div class="pt-2">
+                <a href="#admissions" class="mobile-link block w-full text-center px-4 py-2.5 rounded-lg bg-amber-500 text-white font-semibold shadow">Apply for Admission</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="relative hero-pattern text-white pt-16 pb-24 md:pt-24 md:pb-32 overflow-hidden">
+        <!-- Decorative Glow Orbs -->
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 right-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <!-- Hero Left Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/15 text-amber-300 text-xs sm:text-sm font-medium">
+                        <i data-lucide="shield-check" class="w-4 h-4 text-amber-400"></i>
+                        <span>Administered with Excellence by Sri Akshara Trust</span>
+                    </div>
+
+                    <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight">
+                        Sri Akshara <br class="hidden sm:inline">
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-amber-300 to-yellow-200">
+                            Group of Schools
+                        </span>
+                    </h1>
+
+                    <p class="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal">
+                        Nurturing intellectual distinction, strong ethical foundations, and futuristic skills across our 4 premier school branches in Kompally, Sun City, Bachupally, and Vanasthalipuram under Sri Akshara Trust.
+                    </p>
+
+                    <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+                        <a href="#branches" class="px-6 py-3 rounded-xl bg-white text-navy-900 font-bold hover:bg-slate-100 shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5 inline-flex items-center gap-2">
+                            <i data-lucide="map-pin" class="w-4 h-4 text-amber-600"></i>
+                            <span>Explore 4 Campuses</span>
+                        </a>
+                        <a href="#admissions" class="px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-600 text-white font-bold shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5 inline-flex items-center gap-2">
+                            <i data-lucide="file-text" class="w-4 h-4"></i>
+                            <span>Enquire for Admissions</span>
+                        </a>
+                        <a href="tel:9100222047" class="px-4 py-3 rounded-xl border border-white/20 hover:bg-white/10 text-white font-medium transition-colors inline-flex items-center gap-2">
+                            <i data-lucide="phone" class="w-4 h-4 text-amber-400"></i>
+                            <span class="hidden sm:inline">Call Office:</span> 91002 22047
+                        </a>
+                    </div>
+
+                    <!-- Campus Badges -->
+                    <div class="pt-6 border-t border-white/10 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-xs text-slate-300">
+                        <span class="font-semibold text-white">Our 4 Branches:</span>
+                        <span class="px-2.5 py-1 rounded bg-white/5 border border-white/10">1. Kompally</span>
+                        <span class="px-2.5 py-1 rounded bg-white/5 border border-white/10">2. Sun City</span>
+                        <span class="px-2.5 py-1 rounded bg-white/5 border border-white/10">3. Bachupally</span>
+                        <span class="px-2.5 py-1 rounded bg-white/5 border border-white/10">4. Vanasthalipuram</span>
+                    </div>
+                </div>
+
+                <!-- Hero Right Card: Trust Credibility & Quick Stats -->
+                <div class="lg:col-span-5">
+                    <div class="glass-card rounded-2xl p-6 sm:p-8 shadow-2xl border border-white/30 text-slate-800 relative">
+                        <div class="flex items-center justify-between pb-6 border-b border-slate-200">
+                            <div>
+                                <h3 class="text-xs uppercase font-extrabold tracking-wider text-amber-600">Institutional Impact</h3>
+                                <p class="text-xl font-bold text-navy-900">Sri Akshara Trust Network</p>
+                            </div>
+                            <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
+                                <i data-lucide="award" class="w-5 h-5"></i>
+                            </div>
+                        </div>
+
+                        <!-- Stats Grid -->
+                        <div class="grid grid-cols-2 gap-4 py-6">
+                            <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 text-center">
+                                <span class="text-3xl font-extrabold text-navy-900 block">4</span>
+                                <span class="text-xs font-semibold text-slate-500 uppercase">State-of-Art Campuses</span>
+                            </div>
+                            <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 text-center">
+                                <span class="text-3xl font-extrabold text-amber-600 block">100%</span>
+                                <span class="text-xs font-semibold text-slate-500 uppercase">Board Results Track</span>
+                            </div>
+                            <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 text-center">
+                                <span class="text-3xl font-extrabold text-navy-900 block">15+</span>
+                                <span class="text-xs font-semibold text-slate-500 uppercase">Sports & Fine Arts</span>
+                            </div>
+                            <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-100 text-center">
+                                <span class="text-3xl font-extrabold text-amber-600 block">1:15</span>
+                                <span class="text-xs font-semibold text-slate-500 uppercase">Teacher-Student Ratio</span>
+                            </div>
+                        </div>
+
+                        <!-- Trust Seal Banner -->
+                        <div class="bg-navy-900 text-white rounded-xl p-4 text-xs space-y-2">
+                            <div class="flex items-center gap-2 text-amber-400 font-bold">
+                                <i data-lucide="check-circle" class="w-4 h-4"></i>
+                                <span>Centrally Managed Trust Governance</span>
+                            </div>
+                            <p class="text-slate-300">
+                                Guided by seasoned educationists, ensuring uncompromised safety, holistic child development, and moral uprightness across every branch.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SRI AKSHARA TRUST -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Left Narrative -->
+                <div class="lg:col-span-6 space-y-6">
+                    <div>
+                        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+                            Our Custodian Body
+                        </span>
+                        <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight mt-3">
+                            Sri Akshara Trust: Inspiring Brilliance Across Campuses
+                        </h2>
+                    </div>
+
+                    <p class="text-slate-600 leading-relaxed">
+                        <strong>Sri Akshara Trust</strong> governs and mentors the <strong>Sri Akshara Group of Schools</strong> with a unified vision of delivering transformative education. Through an optimal balance of conceptual inquiry, athletic discipline, modern science, and cultural values, the Trust empowers students to achieve academic milestones and moral leadership.
+                    </p>
+
+                    <p class="text-slate-600 leading-relaxed">
+                        Registered with its central society office in Narsingi Village, Gandipet, Sri Akshara Trust provides strategic academic governance, faculty enrichment programs, and continuous infrastructure upgrades across all 4 school branches in Greater Hyderabad.
+                    </p>
+
+                    <!-- Trust Pillars -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                        <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                            <div class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="cpu" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">STEM & Future Skills</h4>
+                                <p class="text-xs text-slate-500">Robotics, coding, and hands-on experimental sciences.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                            <div class="w-8 h-8 rounded-lg bg-blue-500/10 text-blue-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="heart-handshake" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Values & Heritage</h4>
+                                <p class="text-xs text-slate-500">Cultural consciousness, ethics, and mutual respect.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                            <div class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="activity" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Athletic Distinction</h4>
+                                <p class="text-xs text-slate-500">Daily physical education, martial arts, yoga & team sports.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start gap-3 p-3 rounded-lg bg-slate-50 border border-slate-100">
+                            <div class="w-8 h-8 rounded-lg bg-purple-500/10 text-purple-600 flex items-center justify-center shrink-0">
+                                <i data-lucide="shield-alert" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-navy-900 text-sm">Child Safety & Care</h4>
+                                <p class="text-xs text-slate-500">Surveillance, GPS fleet, and certified infirmary staff.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Visual Element / Trust Profile Card -->
+                <div class="lg:col-span-6">
+                    <div class="bg-gradient-to-br from-navy-900 to-navy-950 text-white rounded-3xl p-8 shadow-xl relative overflow-hidden">
+                        <div class="absolute -right-10 -bottom-10 w-60 h-60 bg-amber-500/10 rounded-full blur-2xl"></div>
+                        
+                        <div class="flex items-center gap-3 mb-6">
+                            <div class="w-12 h-12 rounded-xl bg-amber-500 flex items-center justify-center text-navy-950 font-black text-xl">
+                                SAT
+                            </div>
+                            <div>
+                                <h3 class="text-lg font-bold">SRI AKSHARA TRUST</h3>
+                                <p class="text-xs text-amber-300">Registered Non-Profit Educational Trust</p>
+                            </div>
+                        </div>
+
+                        <div class="space-y-4 text-sm text-slate-300 border-t border-navy-800 pt-6">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="map-pin" class="w-5 h-5 text-amber-400 shrink-0 mt-0.5"></i>
+                                <div>
+                                    <strong class="text-white block">Registered Society Address:</strong>
+                                    H.NO.7-90/7/2/C-504, Flat No. 504, Sree Sai Brindavanam Apartment, Brindavan Colony, Survey No. 156, Narsingi Village, Gandipet - 500075, Ranga Reddy, Telangana.
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="mail" class="w-5 h-5 text-amber-400 shrink-0"></i>
+                                <div>
+                                    <strong class="text-white">Email Address:</strong>
+                                    <span class="block text-slate-200">sriaksharatrusthyd@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="phone" class="w-5 h-5 text-amber-400 shrink-0"></i>
+                                <div>
+                                    <strong class="text-white">Central Enquiry Phone:</strong>
+                                    <span class="block text-amber-300 font-bold">+91 91002 22047</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-8 pt-6 border-t border-navy-800 flex items-center justify-between">
+                            <span class="text-xs text-slate-400">Standardized across all 4 campuses</span>
+                            <a href="#branches" class="text-xs font-bold text-amber-400 hover:text-amber-300 inline-flex items-center gap-1">
+                                View Campuses <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- THE FOUR BRANCHES SECTION -->
+    <section id="branches" class="py-20 bg-slate-50 border-t border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+                    Network of Campuses
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight mt-3">
+                    Four Campuses Under Sri Akshara Group of Schools
+                </h2>
+                <p class="text-slate-600 mt-3 text-base">
+                    Discover our dedicated schools in Kompally, Sun City, Bachupally, and Vanasthalipuram – each equipped with modern infrastructure and guided by Sri Akshara Trust.
+                </p>
+
+                <!-- Branch Filter Pills -->
+                <div class="flex flex-wrap justify-center gap-2 mt-8" id="branch-pills">
+                    <button onclick="filterBranches('all')" class="branch-pill-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full border border-slate-300 bg-navy-900 text-white transition-all shadow-sm">All 4 Branches</button>
+                    <button onclick="filterBranches('kompally')" class="branch-pill-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full border border-slate-300 bg-white text-slate-700 hover:bg-slate-100 transition-all">1. Kompally</button>
+                    <button onclick="filterBranches('suncity')" class="branch-pill-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full border border-slate-300 bg-white text-slate-700 hover:bg-slate-100 transition-all">2. Sun City</button>
+                    <button onclick="filterBranches('bachupally')" class="branch-pill-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full border border-slate-300 bg-white text-slate-700 hover:bg-slate-100 transition-all">3. Bachupally</button>
+                    <button onclick="filterBranches('vanasthalipuram')" class="branch-pill-btn px-4 py-2 text-xs sm:text-sm font-semibold rounded-full border border-slate-300 bg-white text-slate-700 hover:bg-slate-100 transition-all">4. Vanasthalipuram</button>
+                </div>
+            </div>
+
+            <!-- Branch Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8" id="branches-container">
+                
+                <!-- Branch 1: Kompally -->
+                <div class="branch-card bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden hover:shadow-xl transition-all" data-branch="kompally">
+                    <div class="h-3 bg-gradient-to-r from-amber-500 to-amber-600"></div>
+                    <div class="p-6 sm:p-8 space-y-5">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-2.5 py-0.5 rounded-full border border-amber-200">
+                                    North Hyderabad Corridor
+                                </span>
+                                <h3 class="text-2xl font-bold text-navy-900 mt-2">Akshara School, Kompally</h3>
+                                <p class="text-xs text-amber-700 font-bold mt-0.5">Pre-Primary to Grade VIII • Early Years & Middle Years Education</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-xl bg-navy-50 text-navy-900 flex items-center justify-center font-black text-lg">
+                                01
+                            </div>
+                        </div>
+
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Located in the peaceful Dulapally area of Kompally, this campus is specially structured for foundational, primary, and middle school excellence with playful learning spaces, foundational math & science discovery labs, and vibrant outdoor play tracks.
+                        </p>
+
+                        <!-- Key Campus Amenities -->
+                        <div class="space-y-2 py-3 border-y border-slate-100 text-xs text-slate-700">
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-amber-500"></i>
+                                <span>Child-centric play park, sand pits & athletic activity zones</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-amber-500"></i>
+                                <span>Interactive digital smart classes with phonetics & numeracy labs</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-amber-500"></i>
+                                <span>GPS-enabled bus routes covering Kompally, Dulapally, Medchal & Quthbullapur</span>
+                            </div>
+                        </div>
+
+                        <!-- Location & Contact -->
+                        <div class="bg-slate-50 p-3.5 rounded-xl text-xs space-y-1.5 border border-slate-100">
+                            <div class="flex items-start gap-2 text-slate-600">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-navy-800 shrink-0 mt-0.5"></i>
+                                <span><strong>Address:</strong> Sy.No.102, Dulapally, Kompally, Hyderabad, Telangana.</span>
+                            </div>
+                            <div class="flex items-center gap-2 text-slate-600">
+                                <i data-lucide="phone" class="w-4 h-4 text-navy-800 shrink-0"></i>
+                                <span>Contact / Admissions: <strong>+91 91002 22047</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 flex items-center justify-between">
+                            <button onclick="prefillAdmission('Akshara School - Kompally')" class="px-4 py-2 rounded-lg bg-navy-900 hover:bg-navy-800 text-white text-xs font-bold transition-colors inline-flex items-center gap-1.5">
+                                <span>Enquire for This Campus</span>
+                                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                            </button>
+                            <span class="text-xs text-slate-500 font-medium">Under Sri Akshara Trust</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Branch 2: Sun City (Pebble City) -->
+                <div class="branch-card bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden hover:shadow-xl transition-all" data-branch="suncity">
+                    <div class="h-3 bg-gradient-to-r from-blue-500 to-blue-600"></div>
+                    <div class="p-6 sm:p-8 space-y-5">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-blue-600 bg-blue-50 px-2.5 py-0.5 rounded-full border border-blue-200">
+                                    South-West Hyderabad Zone
+                                </span>
+                                <h3 class="text-2xl font-bold text-navy-900 mt-2">Akshara School of Excellence, Sun City</h3>
+                                <p class="text-xs text-blue-700 font-bold mt-0.5">Grade VI to Grade X • Secondary Academic Distinction</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-900 flex items-center justify-center font-black text-lg">
+                                02
+                            </div>
+                        </div>
+
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Situated in Sun City (Pebble City), this campus caters exclusively to middle and high school students with focused Board exam preparation, Olympiad problem-solving, structured mentoring, and digital reference study pods.
+                        </p>
+
+                        <!-- Key Campus Amenities -->
+                        <div class="space-y-2 py-3 border-y border-slate-100 text-xs text-slate-700">
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-blue-500"></i>
+                                <span>Intensive Board Exam (CBSE/State) revision clinics & regular assessment tracks</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-blue-500"></i>
+                                <span>Digital reference library, quiet study pods & communicative English workshops</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-blue-500"></i>
+                                <span>Transport network across Sun City, Bandlaguda Jagir, Hydershakote & Langar Houz</span>
+                            </div>
+                        </div>
+
+                        <!-- Location & Contact -->
+                        <div class="bg-slate-50 p-3.5 rounded-xl text-xs space-y-1.5 border border-slate-100">
+                            <div class="flex items-start gap-2 text-slate-600">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-blue-800 shrink-0 mt-0.5"></i>
+                                <span><strong>Address:</strong> Sun City (Pebble City), Hyderabad, Telangana.</span>
+                            </div>
+                            <div class="flex items-center gap-2 text-slate-600">
+                                <i data-lucide="phone" class="w-4 h-4 text-blue-800 shrink-0"></i>
+                                <span>Contact / Admissions: <strong>+91 91002 22047</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 flex items-center justify-between">
+                            <button onclick="prefillAdmission('Akshara School of Excellence - Sun City')" class="px-4 py-2 rounded-lg bg-navy-900 hover:bg-navy-800 text-white text-xs font-bold transition-colors inline-flex items-center gap-1.5">
+                                <span>Enquire for This Campus</span>
+                                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                            </button>
+                            <span class="text-xs text-slate-500 font-medium">Under Sri Akshara Trust</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Branch 3: Bachupally -->
+                <div class="branch-card bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden hover:shadow-xl transition-all" data-branch="bachupally">
+                    <div class="h-3 bg-gradient-to-r from-emerald-500 to-emerald-600"></div>
+                    <div class="p-6 sm:p-8 space-y-5">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-600 bg-emerald-50 px-2.5 py-0.5 rounded-full border border-emerald-200">
+                                    Educational Corridor
+                                </span>
+                                <h3 class="text-2xl font-bold text-navy-900 mt-2">Akshara School of Excellence, Bachupally</h3>
+                                <p class="text-xs text-emerald-700 font-bold mt-0.5">Grade VI to Grade X • Competitive Foundation Hub</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-900 flex items-center justify-center font-black text-lg">
+                                03
+                            </div>
+                        </div>
+
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Positioned in Kakatiya Hills, Pragathi Nagar, Bachupally, this premier secondary institution combines comprehensive high school curriculum mastery with early competitive entrance orientation, analytical workshops, and athletic discipline.
+                        </p>
+
+                        <!-- Key Campus Amenities -->
+                        <div class="space-y-2 py-3 border-y border-slate-100 text-xs text-slate-700">
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                                <span>Structured IIT-JEE & NEET foundational coaching alongside core syllabus</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                                <span>Comprehensive high school science laboratories and mathematics problem labs</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-emerald-500"></i>
+                                <span>Safe transport across Pragathi Nagar, Bachupally, Nizampet & Mallampet</span>
+                            </div>
+                        </div>
+
+                        <!-- Location & Contact -->
+                        <div class="bg-slate-50 p-3.5 rounded-xl text-xs space-y-1.5 border border-slate-100">
+                            <div class="flex items-start gap-2 text-slate-600">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-emerald-800 shrink-0 mt-0.5"></i>
+                                <span><strong>Address:</strong> Kakatiya Hills, Pragathi Nagar, Bachupally, Hyderabad, Telangana.</span>
+                            </div>
+                            <div class="flex items-center gap-2 text-slate-600">
+                                <i data-lucide="phone" class="w-4 h-4 text-emerald-800 shrink-0"></i>
+                                <span>Contact / Admissions: <strong>+91 91002 22047</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 flex items-center justify-between">
+                            <button onclick="prefillAdmission('Akshara School of Excellence - Bachupally')" class="px-4 py-2 rounded-lg bg-navy-900 hover:bg-navy-800 text-white text-xs font-bold transition-colors inline-flex items-center gap-1.5">
+                                <span>Enquire for This Campus</span>
+                                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                            </button>
+                            <span class="text-xs text-slate-500 font-medium">Under Sri Akshara Trust</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Branch 4: Vanasthalipuram -->
+                <div class="branch-card bg-white rounded-2xl shadow-md border border-slate-200 overflow-hidden hover:shadow-xl transition-all" data-branch="vanasthalipuram">
+                    <div class="h-3 bg-gradient-to-r from-purple-500 to-purple-600"></div>
+                    <div class="p-6 sm:p-8 space-y-5">
+                        <div class="flex items-start justify-between">
+                            <div>
+                                <span class="text-[11px] font-bold uppercase tracking-wider text-purple-600 bg-purple-50 px-2.5 py-0.5 rounded-full border border-purple-200">
+                                    East Hyderabad Belt
+                                </span>
+                                <h3 class="text-2xl font-bold text-navy-900 mt-2">Akshara School of Excellence, Vanasthalipuram</h3>
+                                <p class="text-xs text-purple-700 font-bold mt-0.5">Grade VI to Grade X • Academic Rigor & Character Building</p>
+                            </div>
+                            <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-900 flex items-center justify-center font-black text-lg">
+                                04
+                            </div>
+                        </div>
+
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Serving the prominent community in Navya Vazeer Estates, Chintalkunta, this high-school campus is dedicated to rigorous Board exam readiness, career guidance seminars, public speaking skills, and holistic physical fitness.
+                        </p>
+
+                        <!-- Key Campus Amenities -->
+                        <div class="space-y-2 py-3 border-y border-slate-100 text-xs text-slate-700">
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-purple-500"></i>
+                                <span>Targeted 10th Board exam remedial coaching & personalized doubt-clearing sessions</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-purple-500"></i>
+                                <span>Modern audio-visual lecture rooms, personality development & debate forums</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="check" class="w-4 h-4 text-purple-500"></i>
+                                <span>Dedicated buses across Vanasthalipuram, LB Nagar, Chintalkunta & Mansoorabad</span>
+                            </div>
+                        </div>
+
+                        <!-- Location & Contact -->
+                        <div class="bg-slate-50 p-3.5 rounded-xl text-xs space-y-1.5 border border-slate-100">
+                            <div class="flex items-start gap-2 text-slate-600">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-purple-800 shrink-0 mt-0.5"></i>
+                                <span><strong>Address:</strong> Navya Vazeer Estates, Chintalkunta, Jahangir Nagar, Vanasthalipuram, Hyderabad.</span>
+                            </div>
+                            <div class="flex items-center gap-2 text-slate-600">
+                                <i data-lucide="phone" class="w-4 h-4 text-purple-800 shrink-0"></i>
+                                <span>Contact / Admissions: <strong>+91 91002 22047</strong></span>
+                            </div>
+                        </div>
+
+                        <div class="pt-2 flex items-center justify-between">
+                            <button onclick="prefillAdmission('Akshara School of Excellence - Vanasthalipuram')" class="px-4 py-2 rounded-lg bg-navy-900 hover:bg-navy-800 text-white text-xs font-bold transition-colors inline-flex items-center gap-1.5">
+                                <span>Enquire for This Campus</span>
+                                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                            </button>
+                            <span class="text-xs text-slate-500 font-medium">Under Sri Akshara Trust</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ACADEMICS & PEDAGOGY -->
+    <section id="academics" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+                    Curriculum Framework
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight mt-3">
+                    Progressive Learning Across 4 Stages
+                </h2>
+                <p class="text-slate-600 mt-2">
+                    Our multi-tier learning trajectory complies with modern national educational guidelines while instilling critical thinking and character.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <!-- Stage 1 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-amber-400 hover:shadow-lg transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-600 flex items-center justify-center font-black text-lg mb-4 group-hover:bg-amber-500 group-hover:text-white transition-colors">
+                        <i data-lucide="baby" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-900">Foundational Stage</h3>
+                    <p class="text-xs font-semibold text-amber-600 mb-2">Pre-K, LKG, UKG & Grade 1-2</p>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Play-way, sensory learning, phonetic literacy, numeracy basics, and emotional wellness in vibrant child-friendly activity areas.
+                    </p>
+                </div>
+
+                <!-- Stage 2 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-blue-400 hover:shadow-lg transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-blue-500/10 text-blue-600 flex items-center justify-center font-black text-lg mb-4 group-hover:bg-blue-600 group-hover:text-white transition-colors">
+                        <i data-lucide="book-open" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-900">Preparatory Stage</h3>
+                    <p class="text-xs font-semibold text-blue-600 mb-2">Grades 3 to 5</p>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Transitioning to structured conceptual learning, interactive science experiments, reading fluency, and bilingual proficiency.
+                    </p>
+                </div>
+
+                <!-- Stage 3 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-emerald-400 hover:shadow-lg transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-600 flex items-center justify-center font-black text-lg mb-4 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                        <i data-lucide="compass" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-900">Middle School</h3>
+                    <p class="text-xs font-semibold text-emerald-600 mb-2">Grades 6 to 8</p>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        In-depth math, physics, chemistry, biology, social sciences, computer science coding, and project-based problem solving.
+                    </p>
+                </div>
+
+                <!-- Stage 4 -->
+                <div class="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-purple-400 hover:shadow-lg transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-600 flex items-center justify-center font-black text-lg mb-4 group-hover:bg-purple-600 group-hover:text-white transition-colors">
+                        <i data-lucide="trophy" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-900">Secondary & Beyond</h3>
+                    <p class="text-xs font-semibold text-purple-600 mb-2">Grades 9 to 12</p>
+                    <p class="text-xs text-slate-600 leading-relaxed">
+                        Rigorous board preparation, dedicated competitive coaching tracks (JEE, NEET, CUET), career counseling, and leadership seminars.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES SECTION -->
+    <section id="facilities" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+                    Campus Infrastructure
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight mt-3">
+                    World-Class Learning Environments
+                </h2>
+                <p class="text-slate-600 mt-2">
+                    Every Akshara campus maintained under Sri Akshara Trust provides a balanced ecosystem where students feel secure, inspired, and motivated.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Facility 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-amber-400 flex items-center justify-center mb-5">
+                        <i data-lucide="monitor" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-navy-900">Digital Smart Classrooms</h4>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        High-definition touch panels, digital curriculum modules, interactive 3D simulations, and multimedia resources in every learning room.
+                    </p>
+                </div>
+
+                <!-- Facility 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-amber-400 flex items-center justify-center mb-5">
+                        <i data-lucide="flask-conical" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-navy-900">Advanced Science & Robotics</h4>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Dedicated physics, chemistry, and biology labs with rigorous safety standards, alongside DIY maker spaces and IoT development kits.
+                    </p>
+                </div>
+
+                <!-- Facility 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-amber-400 flex items-center justify-center mb-5">
+                        <i data-lucide="dumbbell" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-navy-900">Sports & Athletic Arenas</h4>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Synthetic basketball courts, cricket nets, indoor table tennis, badminton, yoga instruction, and professional coaching staff.
+                    </p>
+                </div>
+
+                <!-- Facility 4 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-amber-400 flex items-center justify-center mb-5">
+                        <i data-lucide="music" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-navy-900">Music, Dance & Fine Arts</h4>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Soundproof rehearsal rooms, classical and western musical instruments, theatrical stages, and specialized fine-arts studios.
+                    </p>
+                </div>
+
+                <!-- Facility 5 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-amber-400 flex items-center justify-center mb-5">
+                        <i data-lucide="bus" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-navy-900">GPS-Monitored Safe Fleet</h4>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Air-cooled, speed-governed transport vehicles equipped with real-time GPS tracking, internal CCTV cameras, and trained female attendants.
+                    </p>
+                </div>
+
+                <!-- Facility 6 -->
+                <div class="bg-white rounded-2xl p-6 shadow-sm border border-slate-200 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 rounded-xl bg-navy-900 text-amber-400 flex items-center justify-center mb-5">
+                        <i data-lucide="shield-check" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-navy-900">24/7 Security & Infirmary</h4>
+                    <p class="text-sm text-slate-600 mt-2 leading-relaxed">
+                        Campus-wide CCTV surveillance, biometric visitor screening, verified security personnel, and full-time certified nurses on campus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADMISSIONS ENQUIRY FORM SECTION -->
+    <section id="admissions" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-navy-900 to-navy-950 rounded-3xl p-8 sm:p-12 shadow-2xl text-white relative overflow-hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <!-- Left Copy -->
+                    <div class="lg:col-span-5 space-y-6">
+                        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-bold uppercase tracking-wider">
+                            Admissions Open for Academic Year 2026–27
+                        </span>
+
+                        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+                            Secure Your Child's Future at Sri Akshara
+                        </h2>
+
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Experience our warm learning culture. Fill out this enquiry form, and our admissions team from your preferred branch under <strong>Sri Akshara Trust</strong> will connect within 24 hours to schedule a campus tour.
+                        </p>
+
+                        <div class="space-y-4 pt-2 text-xs text-slate-300">
+                            <div class="flex items-center gap-3">
+                                <div class="w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="check" class="w-4 h-4"></i>
+                                </div>
+                                <span>Direct interaction with the Principal and academic mentors</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="check" class="w-4 h-4"></i>
+                                </div>
+                                <span>Sibling concessions and meritorious scholar waivers</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                                    <i data-lucide="check" class="w-4 h-4"></i>
+                                </div>
+                                <span>Comprehensive prospectus and syllabus kit provided</span>
+                            </div>
+                        </div>
+
+                        <!-- Direct Call Badge -->
+                        <div class="p-4 rounded-xl bg-white/5 border border-white/10 flex items-center gap-4">
+                            <div class="w-10 h-10 rounded-lg bg-amber-500 flex items-center justify-center text-navy-950 font-bold shrink-0">
+                                <i data-lucide="phone-call" class="w-5 h-5"></i>
+                            </div>
+                            <div>
+                                <span class="text-[11px] text-slate-400 uppercase tracking-wider block">Have Urgent Queries?</span>
+                                <a href="tel:9100222047" class="text-amber-400 font-bold text-base hover:underline">+91 91002 22047</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Form -->
+                    <div class="lg:col-span-7">
+                        <div class="bg-white rounded-2xl p-6 sm:p-8 text-slate-800 shadow-xl">
+                            <h3 class="text-xl font-bold text-navy-900 mb-1">Online Admission Enquiry</h3>
+                            <p class="text-xs text-slate-500 mb-6">Enter your details below to receive official branch prospectus.</p>
+
+                            <form id="admission-form" onsubmit="handleAdmissionSubmit(event)" class="space-y-4">
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Student's Full Name *</label>
+                                        <input type="text" id="student_name" required placeholder="e.g. Aarav Sharma" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Parent / Guardian Name *</label>
+                                        <input type="text" id="parent_name" required placeholder="e.g. Ramesh Sharma" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Mobile Contact Phone *</label>
+                                        <input type="tel" id="parent_phone" required pattern="[0-9]{10}" placeholder="10-digit Mobile Number" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all">
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Email Address *</label>
+                                        <input type="email" id="parent_email" required placeholder="parent@example.com" class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all">
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <div>
+                                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Select Preferred Campus *</label>
+                                        <select id="preferred_branch" onchange="updateGradeOptions()" required class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none bg-white font-medium">
+                                            <option value="">Select one of 4 Branches</option>
+                                            <option value="Akshara School - Kompally">1. Akshara School, Kompally (Pre-Primary to Grade VIII)</option>
+                                            <option value="Akshara School of Excellence - Sun City">2. Akshara School of Excellence, Sun City (Grade VI to X)</option>
+                                            <option value="Akshara School of Excellence - Bachupally">3. Akshara School of Excellence, Bachupally (Grade VI to X)</option>
+                                            <option value="Akshara School of Excellence - Vanasthalipuram">4. Akshara School of Excellence, Vanasthalipuram (Grade VI to X)</option>
+                                        </select>
+                                    </div>
+                                    <div>
+                                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Seeking Grade / Class *</label>
+                                        <select id="grade_seeking" required class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none bg-white">
+                                            <option value="">-- Choose Branch First --</option>
+                                            <option value="Pre-Primary (Nursery, PP1, PP2)">Pre-Primary (Nursery, PP1, PP2)</option>
+                                            <option value="Primary (Grades I to V)">Primary (Grades I to V)</option>
+                                            <option value="Middle School (Grades VI to VIII)">Middle School (Grades VI to VIII)</option>
+                                            <option value="Secondary (Grades IX & X)">Secondary (Grades IX & X)</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-600 mb-1">Additional Message / Query (Optional)</label>
+                                    <textarea id="message_text" rows="2" placeholder="Tell us about your child's interests or questions regarding transport, curriculum, etc." class="w-full px-3.5 py-2.5 rounded-lg border border-slate-300 text-sm focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-all"></textarea>
+                                </div>
+
+                                <div class="pt-2">
+                                    <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-600 hover:to-amber-700 text-white font-bold text-sm tracking-wide shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2">
+                                        <span>Submit Admission Enquiry</span>
+                                        <i data-lucide="send" class="w-4 h-4"></i>
+                                    </button>
+                                </div>
+
+                                <p class="text-[11px] text-center text-slate-400">
+                                    Information submitted is protected under Sri Akshara Trust's privacy policy.
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST HEADQUARTERS & DETAILED CONTACT SECTION -->
+    <section id="contact" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-600 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">
+                    Official Communication
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-navy-900 tracking-tight mt-3">
+                    Sri Akshara Trust Society Registered Office
+                </h2>
+                <p class="text-slate-600 mt-2">
+                    Official administrative headquarters governing Sri Akshara Group of Schools.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+                <!-- Address Details Card -->
+                <div class="lg:col-span-6 bg-white rounded-2xl p-8 shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-navy-900 text-amber-400 text-xs font-bold mb-6">
+                            <i data-lucide="landmark" class="w-4 h-4"></i>
+                            <span>REGISTERED SOCIETY HEADQUARTERS</span>
+                        </div>
+
+                        <h3 class="text-2xl font-black text-navy-900 tracking-tight mb-4">
+                            SRI AKSHARA TRUST
+                        </h3>
+
+                        <!-- Exact Official Address Block -->
+                        <div class="bg-slate-50 rounded-xl p-5 border border-slate-200/80 mb-6 font-medium text-slate-700 text-sm leading-relaxed">
+                            <p class="font-bold text-navy-900 text-base mb-2">H.NO.7-90/7/2/C-504, Flat No. 504,</p>
+                            <p>Sree Sai Brindavanam Apartment,</p>
+                            <p>Brindavan Colony, Survey No. 156,</p>
+                            <p>Narsingi Village, Gandipet - 500075,</p>
+                            <p>Ranga Reddy District, Telangana, India.</p>
+                        </div>
+
+                        <!-- Contacts -->
+                        <div class="space-y-4 text-sm">
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+                                    <i data-lucide="phone" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-500 block uppercase font-bold">Central Contact Telephone</span>
+                                    <a href="tel:9100222047" class="text-navy-900 font-extrabold text-base hover:text-amber-600 transition-colors">+91 91002 22047</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+                                    <i data-lucide="mail" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-500 block uppercase font-bold">Official Trust Email</span>
+                                    <a href="mailto:sriaksharatrusthyd@gmail.com" class="text-navy-900 font-bold hover:text-amber-600 transition-colors">sriaksharatrusthyd@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-lg bg-amber-500/10 text-amber-600 flex items-center justify-center shrink-0">
+                                    <i data-lucide="clock" class="w-5 h-5"></i>
+                                </div>
+                                <div>
+                                    <span class="text-xs text-slate-500 block uppercase font-bold">Administrative Hours</span>
+                                    <span class="text-slate-700">Monday – Saturday: 8:30 AM to 5:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-8 border-t border-slate-100 flex flex-wrap gap-3 mt-6">
+                        <a href="tel:9100222047" class="px-5 py-2.5 rounded-lg bg-navy-900 hover:bg-navy-800 text-white font-bold text-xs inline-flex items-center gap-2 transition-colors">
+                            <i data-lucide="phone-outgoing" class="w-4 h-4 text-amber-400"></i>
+                            <span>Call Trust Office</span>
+                        </a>
+                        <a href="mailto:sriaksharatrusthyd@gmail.com" class="px-5 py-2.5 rounded-lg border border-slate-300 hover:bg-slate-50 text-slate-700 font-bold text-xs inline-flex items-center gap-2 transition-colors">
+                            <i data-lucide="send" class="w-4 h-4"></i>
+                            <span>Write Email</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Interactive Location / Map Simulation -->
+                <div class="lg:col-span-6 bg-white rounded-2xl p-6 shadow-sm border border-slate-200 flex flex-col justify-between">
+                    <div>
+                        <h4 class="font-bold text-navy-900 text-lg mb-2">Society Location: Narsingi / Gandipet Zone</h4>
+                        <p class="text-xs text-slate-500 mb-4">Minutes away from Narsingi ORR Exit 18, Sree Sai Brindavanam, Gandipet.</p>
+                        
+                        <!-- Map Viewport Mockup -->
+                        <div class="w-full h-72 rounded-xl bg-slate-100 border border-slate-200 relative overflow-hidden flex flex-col items-center justify-center text-center p-6">
+                            <!-- Background Map Stylized Elements -->
+                            <div class="absolute inset-0 opacity-20 pointer-events-none" style="background-image: radial-gradient(#0f2942 1.5px, transparent 1.5px); background-size: 20px 20px;"></div>
+                            
+                            <div class="relative z-10 space-y-3">
+                                <div class="w-14 h-14 rounded-full bg-amber-500 text-white flex items-center justify-center shadow-lg mx-auto animate-bounce">
+                                    <i data-lucide="map-pin" class="w-7 h-7"></i>
+                                </div>
+                                <h5 class="font-bold text-navy-900 text-base">Sri Akshara Trust Registered Office</h5>
+                                <p class="text-xs text-slate-600 max-w-sm">
+                                    Flat No 504, Sree Sai Brindavanam Apartment, Sy No. 156, Narsingi, Gandipet - 500075.
+                                </p>
+                                <a href="https://maps.google.com/?q=Narsingi+Gandipet+Hyderabad" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-navy-900 text-white text-xs font-bold hover:bg-navy-800 transition-colors shadow">
+                                    <span>Open in Google Maps</span>
+                                    <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Campus Connectivity Notes -->
+                    <div class="mt-6 pt-4 border-t border-slate-100 grid grid-cols-2 gap-4 text-xs">
+                        <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+                            <span class="font-bold text-navy-900 block">From Financial District / Kokapet:</span>
+                            <span class="text-slate-500">8-10 Mins via ORR Service Road</span>
+                        </div>
+                        <div class="p-3 rounded-lg bg-slate-50 border border-slate-100">
+                            <span class="font-bold text-navy-900 block">From Mehdipatnam / Langar Houz:</span>
+                            <span class="text-slate-500">15-18 Mins via Gandipet Main Road</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-navy-950 text-slate-300 pt-16 pb-12 border-t border-navy-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-navy-800/80">
+                
+                <!-- Col 1: Trust Profile -->
+                <div class="lg:col-span-4 space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500 text-navy-950 flex items-center justify-center font-black">
+                            <i data-lucide="graduation-cap" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <span class="text-lg font-extrabold text-white tracking-tight">SRI AKSHARA GROUP</span>
+                            <span class="text-[10px] block font-semibold text-amber-400 tracking-wider uppercase">Under Sri Akshara Trust</span>
+                        </div>
+                    </div>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Sri Akshara Group of Schools is dedicated to empowering students with progressive pedagogy, moral rectitude, and sports excellence across our 4 branches in Hyderabad.
+                    </p>
+                    <div class="pt-2 text-xs text-slate-400">
+                        <strong class="text-white block mb-1">Registered Society Office:</strong>
+                        Flat No. 504, Sree Sai Brindavanam Apartment, Sy No. 156, Narsingi Village, Gandipet - 500075.
+                    </div>
+                </div>
+
+                <!-- Col 2: The Four Branches -->
+                <div class="lg:col-span-3 space-y-3">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Our 4 Branches</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li>
+                            <a href="#branches" class="hover:text-amber-400 transition-colors flex items-center gap-1.5">
+                                <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-amber-500"></i>
+                                <span>1. Akshara School, Kompally</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#branches" class="hover:text-amber-400 transition-colors flex items-center gap-1.5">
+                                <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-amber-500"></i>
+                                <span>2. Akshara School of Excellence, Sun City</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#branches" class="hover:text-amber-400 transition-colors flex items-center gap-1.5">
+                                <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-amber-500"></i>
+                                <span>3. Akshara School of Excellence, Bachupally</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#branches" class="hover:text-amber-400 transition-colors flex items-center gap-1.5">
+                                <i data-lucide="chevron-right" class="w-3.5 h-3.5 text-amber-500"></i>
+                                <span>4. Akshara School of Excellence, Vanasthalipuram</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Quick Navigation -->
+                <div class="lg:col-span-2 space-y-3">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Quick Links</h4>
+                    <ul class="space-y-2 text-xs text-slate-400">
+                        <li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="hover:text-white transition-colors">Sri Akshara Trust</a></li>
+                        <li><a href="#branches" class="hover:text-white transition-colors">Our 4 Campuses</a></li>
+                        <li><a href="#academics" class="hover:text-white transition-colors">Academic Stages</a></li>
+                        <li><a href="#facilities" class="hover:text-white transition-colors">Facilities</a></li>
+                        <li><a href="#admissions" class="hover:text-white transition-colors">Admissions 2026-27</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Contact Connect -->
+                <div class="lg:col-span-3 space-y-3">
+                    <h4 class="text-sm font-bold uppercase tracking-wider text-white">Direct Connect</h4>
+                    <div class="text-xs space-y-2.5 text-slate-400">
+                        <div class="flex items-center gap-2 text-slate-300">
+                            <i data-lucide="phone" class="w-4 h-4 text-amber-400 shrink-0"></i>
+                            <a href="tel:9100222047" class="hover:text-white font-bold text-sm">+91 91002 22047</a>
+                        </div>
+                        <div class="flex items-center gap-2 text-slate-300">
+                            <i data-lucide="mail" class="w-4 h-4 text-amber-400 shrink-0"></i>
+                            <a href="mailto:sriaksharatrusthyd@gmail.com" class="hover:text-white break-all">sriaksharatrusthyd@gmail.com</a>
+                        </div>
+                        <div class="pt-2">
+                            <span class="inline-block px-3 py-1 rounded bg-navy-900 border border-navy-800 text-amber-300 text-[11px] font-semibold">
+                                Mon-Sat: 8:30am - 5:00pm
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Bottom Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+                <p>© 2026 Sri Akshara Group of Schools. Managed under Sri Akshara Trust. All rights reserved.</p>
+                <div class="flex items-center gap-6">
+                    <a href="#about" class="hover:text-slate-400">Privacy Policy</a>
+                    <a href="#about" class="hover:text-slate-400">Trust Bylaws</a>
+                    <a href="#admissions" class="hover:text-slate-400">Admissions Guidelines</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SUBMISSION CONFIRMATION MODAL -->
+    <div id="confirmation-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-navy-950/75 backdrop-blur-sm hidden">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 sm:p-8 text-center space-y-4 shadow-2xl border border-slate-100 transform transition-all animate-in fade-in zoom-in-95 duration-200">
+            <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-600 flex items-center justify-center mx-auto">
+                <i data-lucide="check-circle-2" class="w-9 h-9"></i>
+            </div>
+            
+            <h3 class="text-2xl font-bold text-navy-900">Enquiry Received!</h3>
+            
+            <p id="modal-feedback" class="text-sm text-slate-600 leading-relaxed">
+                Thank you for your interest in Sri Akshara Group of Schools under Sri Akshara Trust.
+            </p>
+            
+            <div class="bg-slate-50 p-4 rounded-xl text-xs text-slate-600 border border-slate-100 text-left space-y-1.5">
+                <p><strong>Next Steps:</strong></p>
+                <p>1. Our admissions counselor from your chosen campus will contact you within 24 hours.</p>
+                <p>2. A prospectus &amp; campus tour invitation will be shared on your registered phone and email.</p>
+            </div>
+
+            <div class="pt-2">
+                <button onclick="closeConfirmationModal()" class="w-full py-3 rounded-xl bg-navy-900 hover:bg-navy-800 text-white font-bold text-sm transition-colors">
+                    Acknowledge & Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT CONTROLLERS -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Auto close mobile menu on anchor click
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Interactive Branch Filtering
+        function filterBranches(branchKey) {
+            const cards = document.querySelectorAll('.branch-card');
+            const buttons = document.querySelectorAll('.branch-pill-btn');
+
+            // Reset button active classes
+            buttons.forEach(btn => {
+                btn.classList.remove('bg-navy-900', 'text-white');
+                btn.classList.add('bg-white', 'text-slate-700');
+            });
+
+            // Set current clicked button
+            event.target.classList.remove('bg-white', 'text-slate-700');
+            event.target.classList.add('bg-navy-900', 'text-white');
+
+            cards.forEach(card => {
+                if (branchKey === 'all') {
+                    card.style.display = 'block';
+                } else if (card.getAttribute('data-branch') === branchKey) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Quick Pre-fill Campus in Admissions Form
+        function prefillAdmission(campusName) {
+            const dropdown = document.getElementById('preferred_branch');
+            dropdown.value = campusName;
+            updateGradeOptions();
+            
+            // Smooth scroll down to admission form
+            document.getElementById('admissions').scrollIntoView({ behavior: 'smooth' });
+            
+            // Highlight dropdown briefly
+            dropdown.focus();
+            dropdown.classList.add('ring-4', 'ring-amber-400');
+            setTimeout(() => {
+                dropdown.classList.remove('ring-4', 'ring-amber-400');
+            }, 1800);
+        }
+
+        // Dynamically update Grade options based on selected branch
+        function updateGradeOptions() {
+            const branch = document.getElementById('preferred_branch').value;
+            const gradeSelect = document.getElementById('grade_seeking');
+
+            gradeSelect.innerHTML = '';
+
+            if (!branch) {
+                const opt = document.createElement('option');
+                opt.value = '';
+                opt.textContent = '-- Select Preferred Campus First --';
+                gradeSelect.appendChild(opt);
+                return;
+            }
+
+            const defaultOpt = document.createElement('option');
+            defaultOpt.value = '';
+            defaultOpt.textContent = 'Select Grade / Class';
+            gradeSelect.appendChild(defaultOpt);
+
+            if (branch === 'Akshara School - Kompally') {
+                // Kompally offers Pre-Primary to Grade VIII
+                const options = [
+                    'Pre-Primary: Nursery / PP1 / PP2',
+                    'Primary: Grade I',
+                    'Primary: Grade II',
+                    'Primary: Grade III',
+                    'Primary: Grade IV',
+                    'Primary: Grade V',
+                    'Middle School: Grade VI',
+                    'Middle School: Grade VII',
+                    'Middle School: Grade VIII'
+                ];
+                options.forEach(g => {
+                    const el = document.createElement('option');
+                    el.value = g;
+                    el.textContent = g;
+                    gradeSelect.appendChild(el);
+                });
+            } else {
+                // Sun City, Bachupally, Vanasthalipuram offer Grade VI to Grade X
+                const options = [
+                    'Middle School: Grade VI',
+                    'Middle School: Grade VII',
+                    'Middle School: Grade VIII',
+                    'Secondary: Grade IX',
+                    'Secondary: Grade X (Board Batch)'
+                ];
+                options.forEach(g => {
+                    const el = document.createElement('option');
+                    el.value = g;
+                    el.textContent = g;
+                    gradeSelect.appendChild(el);
+                });
+            }
+        }
+
+        // Handle Admission Form Submission
+        function handleAdmissionSubmit(e) {
+            e.preventDefault();
+            
+            const studentName = document.getElementById('student_name').value.trim();
+            const parentName = document.getElementById('parent_name').value.trim();
+            const branchName = document.getElementById('preferred_branch').value;
+            const grade = document.getElementById('grade_seeking').value;
+
+            // Display customized feedback in modal
+            const feedbackText = `Thank you, <strong>${parentName}</strong>. We have successfully logged the enquiry for <strong>${studentName}</strong> for <strong>${grade}</strong> at <strong>${branchName}</strong>.`;
+            document.getElementById('modal-feedback').innerHTML = feedbackText;
+
+            // Open Modal
+            document.getElementById('confirmation-modal').classList.remove('hidden');
+
+            // Reset form
+            document.getElementById('admission-form').reset();
+        }
+
+        // Close Modal
+        function closeConfirmationModal() {
+            document.getElementById('confirmation-modal').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
